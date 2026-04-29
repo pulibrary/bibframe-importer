@@ -1,0 +1,16 @@
+{
+   "id": "bibframe-importer",
+   "title": "Bibframe Importer",
+   "subtitle": "Import records from Marva Bibframe Editor",
+   "author": "Thomas Ventimiglia",
+   "description": "Import records from Marva Bibframe Editor",
+   "contentSecurity": {
+      "connectSrc": [
+         "https://nga1cj08ih.execute-api.us-east-2.amazonaws.com/"
+      ]
+   },
+   "fullscreen": {
+      "allow": true,
+      "open": true
+   }
+}

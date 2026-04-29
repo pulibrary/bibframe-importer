@@ -1,0 +1,27 @@
+<section>
+  <div class="loading-shade" *ngIf="loading">
+    <mat-spinner diameter="50"></mat-spinner>
+  </div>
+  <h1>Bibframe Importer</h1>
+  <mat-card>
+    <mat-card-content>
+      <div>
+        <input matInput id="marvaID" placeholder="Marva ID" [(ngModel)]="marvaID">
+      </div>
+      <div class="buttonRow">
+        <button mat-flat-button color="primary" (click)="loadFromMarva()">
+          Load from MARVA
+        </button>
+        <button mat-flat-button color="primary" (click)="clear()">
+          Clear
+        </button>
+        <button mat-flat-button color="primary" (click)="saveToAlma()">
+          Save to Alma
+        </button>
+      </div>
+      <div>
+        <textarea cdkTextAreaAutoSize placeholder="Record will appear here" #recordArea>{{bibframeRecord}}</textarea>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</section>
