@@ -12,5 +12,9 @@
    "fullscreen": {
       "allow": true,
       "open": true
+   },
+   "icon": {
+      "type": "url",
+      "value": "/assets/bf.png"
    }
 }
