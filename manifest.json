@@ -1,7 +1,7 @@
 {
    "id": "bibframe-importer",
    "title": "Bibframe Importer",
-   "subtitle": "Import records from Marva Bibframe Editor",
+   "subtitle": "Beta version",
    "author": "Thomas Ventimiglia",
    "description": "Import records from Marva Bibframe Editor",
    "contentSecurity": {
